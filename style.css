@@ -1,0 +1,177 @@
+#title {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+
+.hlinks {
+    font-size: 18px;
+    display: flex;
+    gap: 12px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+
+}
+
+img {
+    max-height: 300px;
+    max-width: 500px;
+
+
+}
+
+#visit {
+    width: 80px;
+    height: 30px;
+    background-color: #96bf97;
+    color: white;
+    font-size: 16px;
+
+}
+
+
+.partone {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+
+}
+
+.header {
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.intro {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.ileft {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+
+.parttwo {
+    padding: 40px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+
+}
+
+.pics {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    max-height: 200;
+    max-width: 200px;
+
+
+}
+
+p {
+    max-width: 250px;
+    font-size: 16px;
+    text-align: center
+}
+
+
+.subtext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+
+
+}
+
+.partthree {
+    background-color: #E5E7EB;
+    padding: 80px;
+    text-align: right;
+    font-weight: bold;
+    color: #1F2937;
+
+}
+
+#quote {
+    text-align: center;
+    font-style: italic;
+    font-weight: 50;
+    font-size: 36px;
+
+}
+
+.banner {
+    margin: 50px 100px;
+    padding: 20px;
+    background-color: #3882F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 4px;
+    gap: 16px;
+    text-align: center;
+    min-height: 80px;
+
+}
+
+#banner1 {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+
+}
+
+
+#banner2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+
+
+
+}
+
+#finalb {
+    width: 120px;
+    height: 60px;
+    background-color: #3882F6;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border: 4px solid white;
+    border-radius: 4px;
+}
+
+.footer {
+    padding: 20px;
+    display: flex;
+    background-color: #1F2937;
+
+}
