@@ -43,12 +43,16 @@ img {
 }
 
 #visit {
-    width: 80px;
-    height: 30px;
-    background-color: #96bf97;
+    max-width: 100px;
+    max-height: 50px;
+    padding: 5px;
+    background-color: #3882F6;
     color: white;
-    font-size: 16px;
+    font-size: 15px;
+    font-weight: bold;
     text-align: center;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
 
 }
 
@@ -62,25 +66,24 @@ img {
 }
 
 .header {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 30px;
     display: flex;
     justify-content: space-between;
 
 }
 
 .intro {
-    padding: 40px;
+    padding: 20px;
     display: flex;
-    justify-content: center;
-    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
 }
 
 .ileft {
     display: flex;
     flex-direction: column;
-    align-items: left;
-    justify-content: center;
+    text-align: left;
     gap: 10px;
 }
 
@@ -145,13 +148,18 @@ p {
     margin: 60px;
     padding: 40px;
     border-radius: 10px;
-    color: white;
+    color: rgba(255, 255, 255, 0.753);
     background-color: #3882F6;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+#bantitle {
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+}
 
 #finalb {
     padding: 10px;
@@ -168,7 +176,7 @@ p {
 
 
 .footer {
-    color: white;
+    color: rgba(255, 255, 255, 0.753);
     padding: 20px;
     text-align: center;
     background-color: #1F2937;
