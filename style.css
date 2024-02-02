@@ -21,6 +21,14 @@ body {
     font-size: 24px;
 }
 
+#promo {
+    padding-bottom: 20px;
+    padding-top: 0px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
 
 .hlinks {
     font-size: 18px;
@@ -90,41 +98,35 @@ img {
 
 
 .parttwo {
-    padding: 40px;
+    padding-bottom: 50px;
+    padding-top: 20px;
     background-color: #ffffff;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     gap: 16px;
-
+    align-items: center;
+    flex-direction: column;
 }
+
 
 .pics {
     display: flex;
-    gap: 16px;
     align-items: center;
-    justify-content: center;
-    max-height: 200;
-    max-width: 200px;
-
+    gap: 16px;
+    max-height: 200px;
+    border-radius: 10px;
 
 }
 
-p {
-    max-width: 250px;
-    font-size: 16px;
-    text-align: center
+.border {
+    border: 3px solid #3882F6;
+
 }
 
-
-.subtext {
+.pack1, .pack2, .pack3, .pack4 {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
     gap: 16px;
-
-
 }
 
 .partthree {
